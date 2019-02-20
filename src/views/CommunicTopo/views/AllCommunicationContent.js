@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import * as ActionCreators from '../reducer'
 import { Button,  Row,  } from 'antd';
 import Table from '../../../common/component/table/table';
-import communicationLogo from "../../../common/assets/count.png";
+// import communicationLogo from "../../../common/assets/count.png";
 import "./style.css";
 
 
@@ -53,7 +53,7 @@ class CommunicationContent extends React.PureComponent {
                 <div>
                     <p className="tableTitle">
                         <span className="condition">
-                          <img src={communicationLogo} alt="communicationLogo" />
+                          {/*<img src={communicationLogo} alt="communicationLogo" />*/}
                         </span>
                         <span className="condition" style={{fontSize:"16px",fontWeight:"700"}}>通信情况</span>
                         <Button size="small">导出记录</Button>

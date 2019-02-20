@@ -1,63 +1,130 @@
-/*公告栏*/
-.pushNotice {
-  background-color: #ECECEC !important;
-  min-height: 200px;
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  -webkit-animation-play-state: paused !important;
+  animation-play-state: paused !important;
 }
-.pushNotice .ant-card .ant-card-head {
-  background: #ccc !important;
-  border: solid #333 1px
-}
-.pushNotice .ant-card-head-title{
-  font-weight: 700;
-  font-size: 14px;
-  color: #555;
-  background-color: #ccc;
-}
-.pushNotice .referee p{
-  display: flex;
-  justify-content: space-around;
+/*.bg-blur {*/
+  /*float: left;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  /*-webkit-filter: blur(2px);*/
+  /*-moz-filter: blur(2px);*/
+  /*-o-filter: blur(2px);*/
+  /*-ms-filter: blur(2px);*/
+  /*filter: blur(2px);*/
+/*}*/
 
-}
-/*公告信息*/
-.pushNotice .notice .ant-card-body{
-  padding: 7px 0px 0px 0px !important;
-  margin-bottom: 10px;
-}
-.pushNotice .noticeName {
-  display: inline-block;
-  width: 15%;
-  height: 80px;
-  line-height: 80px;
-  border: solid #ccc 1px;
-  border-top: solid #ccc 0px;
-  text-align: center;
-}
-.pushNotice .noticeContent {
-  display: inline-block;
-  width: 85%;
-  height: 80px;
-  line-height: 80px;
-  border: solid #ccc 1px;
-  border-top: solid #ccc 0px;
-  border-left: solid #ccc 0px;
-  text-align: center;
-}
-/*适配1920*/
-@media screen and (max-width: 1920px) {
-
+.animated-header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../common/assets/mainPage.jpg");
+  background-size: 100% 100%; /* 背景图片同窗口完全自适应，但长宽可能会变形 */
 }
 
-/*适配1680*/
-@media screen and (max-width: 1680px) {
+
+/*
+.animated-header:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  !*opacity: 0.4;*!
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(15px);
+}*/
+
+.animated-header:before {
+  position: relative;
+  z-index: 999;
+  float: left;
+  display: block;
+}
+.logo,
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
+.loading {
 
-/*适配1600*/
-@media screen and (max-width: 1600px) {
+  display: none;
+}
+.js-loading .loading {
+  background: #08244a;
+  color: #b1f1f3;
+  font: bold 400% Consolas, Monaco, monospace;
 
+  display: block;
 }
 
-/*适配1366*/
-@media screen and (max-width: 1366px) {
-
+.js-loading .logo {
+  display: none;
+}
+@-webkit-keyframes show-background {
+  0% {
+    opacity: 0;
+    -webkit-transform: none;
+    transform: none;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(2);
+    transform: scale(2)
+  }
+}
+@keyframes show-background {
+  0% {
+    opacity: 0;
+    -webkit-transform: none;
+    transform: none;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(2);
+    transform: scale(2)
+  }
+}
+@-webkit-keyframes show-logo {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes show-logo {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }

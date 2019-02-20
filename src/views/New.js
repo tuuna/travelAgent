@@ -1,7 +1,6 @@
 import {hot} from 'react-hot-loader'
-import Header from '../common/component/header/Header'
 import {view as Home}  from './Home/index';
-import UserPage from './UserPage/views'
+/*import UserPage from './UserPage/views'
 import {view as CommunicTopo} from './CommunicTopo/index'
 import {view as MapSignalling} from './MapSignalling/index'
 
@@ -15,7 +14,7 @@ import TargetMonitor from './WarningPage/TargetMonitor'
 import AreaAnalyse from './WarningPage/AreaAnalyse'
 import { SignalingTopology as SignTopology }from './SignalingTopology'
 import {SmsAnalyze} from "./smsAnalyze"
-import {view as CountAnalysis} from './CountAnalysis/index'
+import {view as CountAnalysis} from './CountAnalysis/index'*/
 
 import React from "react";
 import {BrowserRouter as Router,Route,NavLink} from "react-router-dom";
@@ -111,7 +110,7 @@ const Analyse = ({routes}) => (<div>
 const routes = [
     //  目标统计组件
     {
-        path: "/targetCount",
+        /*path: "/targetCount",
         component: targetCount,
         routes: [
           {
@@ -139,11 +138,11 @@ const routes = [
             path: "/targetCount/targetRoam",
             component: targetCounts
         }
-        ]
+        ]*/
     },
     //通用统计组件
     {
-        path: "/currencyCount",
+        /*path: "/currencyCount",
         component: currencyCount,
         routes:[
             {
@@ -153,43 +152,8 @@ const routes = [
                 path: "/currencyCount/signCount",
                 component: MapSignalling
             }
-        ]
-    },
-    //  监控预警组件
-    {
-        path: "/MonitoringWarning",
-        component: MonitoringWarning,
-        routes: [{
-            path: "/MonitoringWarning/targetMonitoring",
-            component: TargetMonitor
-        }, {
-            path: "/MonitoringWarning/targetArea",
-            component: AreaAnalyse
-        }]
-    },
-    //  短信检索
-    {
-        path: "/messageSearch",
-        component: MessagePage,
-    },
-    // 数据分析
-    {
-        path: "/dataAnalyse",
-        component: Analyse,
-        routes:[
-            {
-                path: "/dataAnalyse/dataAnalyse",
-                component: DataAnalyse
-            }, {
-                path: "#",
-
-            }, {
-                path:"#",
-            }, {
-                path:"#"
-            }
-        ]
-    },
+        ]*/
+    }
 
 ];
 
@@ -205,9 +169,8 @@ const New = () => (
     <Router histry={history}>
         <Router>
             <div style={{height:"100%",width:"100%"}}>
-                <Header/>
                 <Route path="/" component={Home} exact/>
-                {routes.map((route, i) => <RouteWithSubRoutes key={i} {...route}/>)}
+                {/*{routes.map((route, i) => <RouteWithSubRoutes key={i} {...route}/>)}*/}
             </div>
         </Router>
     </Router>
