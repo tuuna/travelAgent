@@ -1,57 +1,85 @@
 import React, {Component} from "react"
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import {Row, Col, Card, Icon} from 'antd'
+import Typed from 'typed.js'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import Pic from "../../../common/assets/开始按钮.png"
+import Carousel_1 from "../../../common/assets/example1.jpg"
+import Carousel_2 from "../../../common/assets/example2.jpg"
+import Carousel_3 from "../../../common/assets/example3.jpg"
+
 import "./style.css";
 
 
+
+
+const strings = [
+        'ROAD'
+ ];
 class HomePage extends Component {
     componentDidMount() {
-        // When the component is mounted, add your DOM listener to the "nv" elem.
-        // (The "nv" elem is assigned in the render function.)
-        document.body.className += " js-loading";
-        this.nv.addEventListener("load", this.handleNvEnter);
-        this.main.addEventListener("main", this.handleMainEnter);
 
-        // Testing
-        setInterval(() => this.nv.dispatchEvent(new CustomEvent("load", { detail: new Date() })), 1000);
+        const options = {
+            strings: strings,
+            typeSpeed: 50,
+            backSpeed: 50
+        };
+        // this.el refers to the <span> in the render() method
+        this.typed = new Typed(this.el, options);
     }
 
     componentWillUnmount() {
-        // Make sure to remove the DOM listener when the component is unmounted.
-        this.nv.removeEventListener("load", this.handleNvEnter);
-        this.main.removeEventListener("main", this.handleMainEnter);
+        this.typed.destroy();
     }
 
-    // Use a class arrow function (ES7) for the handler. In ES6 you could bind()
-    // a handler in the constructor.
-    handleNvEnter = (event) => {
-        document.body.className = document.body.className.replace("js-loading", "");
-    };
 
-    handleMainEnter = (event) => {
-        document.body.className = document.body.className.replace("js-loading", "");
-    };
 
   render() {
+      const options = {
+          items: 1,
+          nav: true,
+          rewind: true,
+          autoplay: true
+      };
 
       // Finally, render the div using a "ref" callback which assigns the mounted
       // elem to a class property "nv" used to add the DOM listener to.
 
       return (
           <div>
-              <div className="animated-header bg-blur">
-              <div ref={elem => this.nv = elem} className="loading">
-                 {/*loading*/}
+              <div className="bg bg-blur"/>
+              <div className="content content-front">
+                  <Row gutter={8}>
+                      <Col span={12} >
+                          <Carousel  className="setCarousel" dynamicHeight infiniteLoop showStatus={false} centerMode showArrows={false} centerSlidePercentage={50} autoPlay>
+                              <div>
+                                  <img src={Carousel_1} />
+                                  <Icon type="align-left" className="setIcon"/>
+                              </div>
+                              <div>
+                                  <img src={Carousel_2} />
+                                  <Icon type="align-left" className="setIcon"/>
+                              </div>
+                              <div>
+                                  <img src={Carousel_3} />
+                                  <Icon type="align-left" className="setIcon"/>
+                              </div>
+                          </Carousel>
+                      </Col>
+                      <Col span={12} >
+                          <div className="type-wrap" style={{lineHeight:"84px",marginTop:"200px"}}>
+                              <span
+                                  style={{ whiteSpace: 'pre' }}
+                                  ref={(el) => { this.el = el; }}
+                              />
+                              <p style={{textAlign:"center",lineHeight:"unset !important",fontSize:"20px"}}>旅游就是去别人居住的地方<br/>愿你的时光在路上<br/>一键化旅行定制，为你的时光铺路</p>
+
+                              <button type="submit" style={{textAlign:"center",lineHeight:"unset !important",width:"150px", height:"50px",background:`url(${ Pic })`,backgroundSize:"contain",backgroundRepeat:"no-repeat"}} />
+                          </div>
+
+                      </Col>
+                  </Row>
               </div>
-              <div ref={elem => this.main = elem} className="logo">
-                  <Grid item xs={6}>
-                      <Paper >xs=6</Paper>
-                  </Grid>
-                  <Grid item xs={6}>
-                      <Paper >xs=6</Paper>
-                  </Grid>
-              </div>
-          </div>
           </div>
       );
   }

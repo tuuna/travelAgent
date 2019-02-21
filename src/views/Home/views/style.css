@@ -26,105 +26,92 @@
   background-size: 100% 100%; /* 背景图片同窗口完全自适应，但长宽可能会变形 */
 }
 
-
-/*
-.animated-header:after{
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  !*opacity: 0.4;*!
-  z-index: 1;
+.content {
+  color: #ffffff;
+  font-size: 40px;
+}
+.bg {
+  background: url('../../../common/assets/mainPage.jpg');
+  height:950px;
+  text-align: center;
+  /*line-height: 600px;*/
+}
+.bg-blur {
+  float: left;
   width: 100%;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-filter: blur(4px);
   -moz-filter: blur(4px);
   -o-filter: blur(4px);
   -ms-filter: blur(4px);
-  filter: blur(15px);
-}*/
+  filter: blur(4px);
+}
+.content-front {
+  position:absolute;
+  left: 10px;
+  right: 10px;
+  height:950px;
+  /*line-height: 600px;*/
+  text-align: center;
+}
 
-.animated-header:before {
+/* Adding CSS manually is only necessary in JSFiddle,
+   where CSS can't be inserted into the <head> */
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+.setCarousel .carousel-slider{
+  height: 500px;
+  margin-top: 200px;
+}
+
+.setCarousel .carousel-slider .slider-wrapper {
+  border-radius: 5%;
+  width: 500px;
+}
+
+.setCarousel .carousel-slider .slider-wrapper .slider li .setIcon {
+  display: inline-block;
+  font-style: normal;
+  vertical-align: -0.125em;
+  text-align: center;
+  text-transform: none;
+  line-height: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   position: relative;
-  z-index: 999;
-  float: left;
-  display: block;
-}
-.logo,
-.loading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-}
-.loading {
-
-  display: none;
-}
-.js-loading .loading {
-  background: #08244a;
-  color: #b1f1f3;
-  font: bold 400% Consolas, Monaco, monospace;
-
-  display: block;
+  bottom: 385px;
+  left: 70%;
+  margin-left: -63%;
+  width: 90%;
+  border-radius: 10px;
+  /* background: #000; */
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
 }
 
-.js-loading .logo {
-  display: none;
-}
-@-webkit-keyframes show-background {
-  0% {
-    opacity: 0;
-    -webkit-transform: none;
-    transform: none;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(2);
-    transform: scale(2)
-  }
-}
-@keyframes show-background {
-  0% {
-    opacity: 0;
-    -webkit-transform: none;
-    transform: none;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(2);
-    transform: scale(2)
-  }
-}
-@-webkit-keyframes show-logo {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(.8);
-    transform: scale(.8);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@keyframes show-logo {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(.8);
-    transform: scale(.8);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
+.setCarousel .carousel-slider .slider-wrapper .slider li {
+  border-radius: 5%;
 }
