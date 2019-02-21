@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc38c065-98df-4ed5-8747-b94909e89223" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/demo/mock-detail.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/demo/mock-table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/mapsign/analazyData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/mapsign/lineChartData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/mapsign/lineTopBarCharData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/mapsign/mapSigListData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/mapsign/pieChartData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/middlePersonRecommend/middlepersonListData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/middlePersonRecommend/targetListData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/signTopo/signBasicsTable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/signTopo/signTopo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/smsAnalyze/appContainsTarget.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/smsAnalyze/appSMSReceiveFrequency.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/smsAnalyze/smsLanguageTop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/tableList/analyzeTOP.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/tableList/column.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/tableList/tablecontent.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/tableList/tables.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/cityListData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/foreignConnecterData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/interConnecterData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/jobListTarget.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/locationData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/phoneData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/target.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/target/userContacterTradData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/topo/mock-commu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/topo/mock-topo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-commu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-current-message.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-detail.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-filter-message.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-message.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-topo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-china-diffuse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-chinamap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-piechart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-table.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-world-diffuse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mock/usc/mock-warning-worldmap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/assets/example3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/assets/bk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/assets/josh-couch-475118-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/assets/example3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CommunicTopo/views/AllCommunicationContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CommunicTopo/views/AllCommunicationContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/views/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/views/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/New.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/New.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +29,7 @@
       <file leaf-file-name="New.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/New.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2092">
+            <state relative-caret-position="3633">
               <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -93,8 +42,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Home/views/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+            <state relative-caret-position="99">
+              <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -107,8 +56,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/Home/views/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="74" column="148" selection-start-line="74" selection-start-column="148" selection-end-line="74" selection-end-column="148" />
+            <state relative-caret-position="22">
+              <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -178,15 +127,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="295" />
     <option name="y" value="37" />
     <option name="width" value="1129" />
@@ -228,8 +174,7 @@
               <item name="travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,28 +221,29 @@
       <workItem from="1539159876871" duration="597000" />
       <workItem from="1543323315595" duration="48000" />
       <workItem from="1543367920527" duration="136000" />
-      <workItem from="1550630645858" duration="23339000" />
+      <workItem from="1550630645858" duration="24070000" />
+      <workItem from="1550734800628" duration="1136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49853000" />
+    <option name="totallyTimeSpent" value="51720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.100520834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10021097" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20562771" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20555556" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -321,13 +267,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable_reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
@@ -335,13 +275,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable_sage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -353,10 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3528">
           <caret line="168" column="52" lean-forward="true" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#449#477#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,9 +294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4872">
           <caret line="232" column="54" lean-forward="true" selection-start-line="232" selection-start-column="54" selection-end-line="232" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,13 +307,7 @@
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable/charts/analyzeTOP.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeTOP.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeTOP.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable/charts/analyseFrequency.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
@@ -394,13 +315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable_reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
@@ -408,13 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable_sage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -440,9 +349,7 @@
         <state relative-caret-position="-259" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/tables.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/tables.json" />
     <entry file="file://$PROJECT_DIR$/src/views/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -457,9 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/tablecontent.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/tablecontent.json" />
     <entry file="file://$PROJECT_DIR$/src/views/RootSaga.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -481,13 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/column.json" />
     <entry file="file://$PROJECT_DIR$/src/views/MessagePage/views/searchResult.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -502,13 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeFrequency.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable/charts/analyseFrequency.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -516,13 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeTOP.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mock/tableList/analyzeTOP.json" />
     <entry file="file://$PROJECT_DIR$/src/views/DataAnalyse/getTable/charts/analyzeTOP.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="232" column="54" selection-start-line="232" selection-start-column="54" selection-end-line="232" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,10 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="168" column="52" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#449#477#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/New.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2092">
+        <state relative-caret-position="3633">
           <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -627,15 +504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home/views/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+        <state relative-caret-position="99">
+          <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home/views/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="74" column="148" selection-start-line="74" selection-start-column="148" selection-end-line="74" selection-end-column="148" />
+        <state relative-caret-position="22">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

@@ -51,7 +51,7 @@ class HomePage extends Component {
               <div className="content content-front">
                   <Row gutter={8}>
                       <Col span={12} >
-                          <Carousel  className="setCarousel" dynamicHeight infiniteLoop showStatus={false} centerMode showArrows={false} centerSlidePercentage={50} autoPlay>
+                          <Carousel  className="setCarousel" dynamicHeight infiniteLoop showStatus={false} showArrows={false} centerSlidePercentage={50} autoPlay>
                               <div>
                                   <img src={Carousel_1} />
                                   <Icon type="align-left" className="setIcon"/>
